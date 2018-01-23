@@ -32,7 +32,7 @@ div.middle{
     position: absolute;
     width: 5vw;
     height: 70vh;
-    background-color: #940019;
+    background: -webkit-linear-gradient(left, #7e0202 0%, #9c0b0b 50%, #660000 100%);
     right: 0;
     border-radius: 0 50px 0 0;
 }
@@ -81,4 +81,43 @@ div.screen-border{
     width: 14vw;
     height: 14vw;
     border-radius: 20px 20px 20px 70px;
+}
+
+div.red-btn{
+    background-color: #ff0707;
+    border-radius: 10000px;
+    width: 18px;
+    height: 18px;
+}
+
+div.button1{
+    position: absolute;
+    top: 1vh;
+    left: 0.5vw;
+}
+
+div.green-btn{
+    background-color: #0ee037;
+    border-radius: 10000px;
+    width: 18px;
+    height: 18px;
+}
+
+div.button2{
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+}
+
+div.yellow-btn{
+    background-color: #e0dd39;
+    border-radius: 10000px;
+    width: 18px;
+    height: 18px;
+}
+
+div.button3{
+    position: absolute;
+    top: 1vh;
+    left: 3.5vw;
 }
