@@ -121,3 +121,23 @@ div.button3{
     top: 1vh;
     left: 3.5vw;
 }
+
+div.hr-5{
+    width: 8vw;
+    height: 1px;
+    border: black solid 1px;
+    background-color: black;
+    position: absolute;
+    left: 4vw;
+    top: 28vh;
+}
+
+div.hr-6{
+    width:9vw;
+    height: 1px;
+    border: black solid 1px;
+    background-color: black;
+    position: absolute;
+    left: 3vw;
+    top: 26.5vh;
+}
