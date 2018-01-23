@@ -184,3 +184,96 @@ div.poketext{
     left: 4.5vw;
     top: -5vh;
 }
+
+div.up-cross{
+    position: absolute;
+    background-color: #513D22;
+    height: 2vw;
+    width: 2vw;
+    top: 16vw;
+    left: 10vw;
+    box-shadow: -2px 2px #010101;
+}
+
+div.middle-cross{
+    position: absolute;
+    background-color: #513D22;
+    height: 2vw;
+    width: 2vw;
+    top: 18vw;
+    left: 10vw;
+}
+
+div.right-cross{
+    position: absolute;
+    background-color: #513D22;
+    height: 2vw;
+    width: 2vw;
+    top: 18vw;
+    left: 12vw;
+}
+
+div.left-cross{
+    position: absolute;
+    background-color: #513D22;
+    height: 2vw;
+    width: 2vw;
+    top: 18vw;
+    left: 8vw;
+    box-shadow: -2px 1px #010101;
+}
+
+div.down-cross{
+    position: absolute;
+    background-color: #513D22;
+    height: 2vw;
+    width: 2vw;
+    top: 20vw;
+    left: 10vw;
+    box-shadow: -2px 1px #010101;
+}
+
+div.right-arrow{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #000000;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+
+}
+
+div.left-arrow{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #111;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+
+div.top-arrow{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #111;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+div.down-arrow{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #111;
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+}
