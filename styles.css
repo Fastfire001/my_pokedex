@@ -72,3 +72,13 @@ div.hr-4{
     position: absolute;
     top: 65vh;
 }
+
+div.screen-border{
+    position: absolute;
+    background-color: #D2D6CB;
+    top: 20vh;
+    left: 3vw;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 20px 20px 20px 70px;
+}
