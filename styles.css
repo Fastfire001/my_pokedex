@@ -1,0 +1,38 @@
+form{
+    text-align: center;
+}
+
+div.pokedex{
+    position: absolute;
+}
+
+.red{
+    background-color: #C00D0D;
+}
+
+div.left{
+    position: absolute;
+    left: 25vw;
+    width: 25vw;
+    height: 70vh;
+    top: 12vh;
+    border-radius: 50px 50px 0 50px;
+}
+
+div.right{
+    position: absolute;
+    left: 50vw;
+    width: 25vw;
+    height: 60vh;
+    top: 22vh;
+    border-radius: 0 50px 50px 0;
+}
+
+div.middle{
+    position: absolute;
+    width: 5vw;
+    height: 70vh;
+    background-color: black;
+    right: 0;
+    border-radius: 0 50px 0 0;
+}
