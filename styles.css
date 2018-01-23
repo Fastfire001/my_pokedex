@@ -17,18 +17,22 @@ div.left{
     height: 70vh;
     top: 12vh;
     border-radius: 50px 50px 0 50px;
+    box-shadow: -10px 9px #5e0000;
 }
 
 div.right{
+    z-index: 1;
     position: absolute;
-    left: 50vw;
-    width: 25vw;
+    left: 49vw;
+    width: 26vw;
     height: 60vh;
     top: 22vh;
     border-radius: 0 50px 50px 0;
+    box-shadow: -0 9px #5e0000;
 }
 
 div.middle{
+    z-index: 2;
     position: absolute;
     width: 5vw;
     height: 70vh;
@@ -38,7 +42,7 @@ div.middle{
 }
 
 div.hr-1{
-    width: 5vw;
+    width: 4.8vw;
     height: 1px;
     border: black solid 1px;
     background-color: black;
@@ -47,7 +51,7 @@ div.hr-1{
 }
 
 div.hr-2{
-    width: 5vw;
+    width: 4.8vw;
     height: 1px;
     border: black solid 1px;
     background-color: black;
@@ -56,7 +60,7 @@ div.hr-2{
 }
 
 div.hr-3{
-     width: 5vw;
+     width: 4.8vw;
      height: 1px;
      border: black solid 1px;
      background-color: black;
@@ -65,7 +69,7 @@ div.hr-3{
  }
 
 div.hr-4{
-    width: 5vw;
+    width: 4.8vw;
     height: 1px;
     border: black solid 1px;
     background-color: black;
