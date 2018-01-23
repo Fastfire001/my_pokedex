@@ -1,3 +1,12 @@
+@font-face {
+    font-family: pokefont;
+    src: url('Pokemon_Solid.ttf');
+}
+
+.pokefont{
+    font-family: pokefont;
+}
+
 form{
     text-align: center;
 }
@@ -153,7 +162,14 @@ div.big-button{
     position: absolute;
     width: 5vw;
     height: 5vw;
-    top: 2vh;
+    top: 53vh;
     left: 2vw;
     border: white solid 2px;
+}
+
+div.poketext{
+    position: absolute;
+    font-size: 280%;
+    left: 4.5vw;
+    top: -5vh;
 }
