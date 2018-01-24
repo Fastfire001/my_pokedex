@@ -112,6 +112,7 @@ div.red-btn{
     border-radius: 10000px;
     width: 18px;
     height: 18px;
+    border: black solid 1px;
 }
 
 div.button1{
@@ -125,6 +126,7 @@ div.green-btn{
     border-radius: 10000px;
     width: 18px;
     height: 18px;
+    border: black solid 1px;
 }
 
 div.button2{
@@ -138,6 +140,7 @@ div.yellow-btn{
     border-radius: 10000px;
     width: 18px;
     height: 18px;
+    border: black solid 1px;
 }
 
 div.button3{
