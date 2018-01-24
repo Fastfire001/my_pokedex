@@ -11,9 +11,6 @@ form{
     text-align: center;
 }
 
-div.pokedex{
-    position: absolute;
-}
 
 .red{
     background-color: #C00D0D;
@@ -21,9 +18,9 @@ div.pokedex{
 
 div.left{
     position: absolute;
-    left: 25vw;
-    width: 25vw;
-    height: 70vh;
+    left: 384px;
+    width: 384px;
+    height: 513.8px;
     top: 12vh;
     border-radius: 40px 40px 0 40px;
     box-shadow: -10px 9px #5e0000;
@@ -32,10 +29,8 @@ div.left{
 div.up{
     z-index: 2;
     position: absolute;
-    left: 0vw;
-    width: 25vw;
+    width: 384px;
     height: 10vh;
-    top: 0vh;
     border-radius: 40px 40px 0 40px;
     box-shadow: -10px 9px #5e0000;
 }
@@ -43,8 +38,8 @@ div.up{
 div.right{
     z-index: 1;
     position: absolute;
-    left: 49vw;
-    width: 21vw;
+    left: 752.64px;
+    width: 322.56px;
     height: 60vh;
     top: 22vh;
     border-radius: 0 40px 40px 0;
@@ -54,24 +49,24 @@ div.right{
 div.middle{
     z-index: 2;
     position: absolute;
-    width: 5vw;
-    height: 70vh;
+    width: 76.8px;
+    height: 513.8px;
     background: -webkit-linear-gradient(left, #7e0202 0%, #9c0b0b 50%, #660000 100%);
     right: 0;
     border-radius: 0 40px 0 0;
 }
 
 div.hr-1{
-    width: 4.8vw;
+    width: 74px;
     height: 1px;
     border: black solid 1px;
     background-color: black;
     position: absolute;
-    top: 20vh;
+    top: 146.8px;
 }
 
 div.hr-2{
-    width: 4.8vw;
+    width: 74px;
     height: 1px;
     border: black solid 1px;
     background-color: black;
@@ -80,7 +75,7 @@ div.hr-2{
 }
 
 div.hr-3{
-     width: 4.8vw;
+     width: 74px;
      height: 1px;
      border: black solid 1px;
      background-color: black;
@@ -89,7 +84,7 @@ div.hr-3{
  }
 
 div.hr-4{
-    width: 4.8vw;
+    width: 74px;
     height: 1px;
     border: black solid 1px;
     background-color: black;
@@ -100,10 +95,10 @@ div.hr-4{
 div.screen-border{
     position: absolute;
     background-color: #D2D6CB;
-    top: 20vh;
-    left: 3vw;
-    width: 14vw;
-    height: 14vw;
+    top: 146.8px;
+    left: 46px;
+    width: 215.04px;
+    height: 215.04px;
     border-radius: 20px 20px 20px 70px;
 }
 
@@ -118,7 +113,7 @@ div.red-btn{
 div.button1{
     position: absolute;
     top: 1vh;
-    left: 0.5vw;
+    left: 7.68px;
 }
 
 div.green-btn{
@@ -132,7 +127,7 @@ div.green-btn{
 div.button2{
     position: absolute;
     top: 1vh;
-    left: 2vw;
+    left: 30.72px;
 }
 
 div.yellow-btn{
@@ -146,26 +141,26 @@ div.yellow-btn{
 div.button3{
     position: absolute;
     top: 1vh;
-    left: 3.5vw;
+    left: 53.76px;
 }
 
 div.hr-5{
-    width: 8vw;
+    width: 122.88px;
     height: 1px;
     border: black solid 1px;
     background-color: black;
     position: absolute;
-    left: 4vw;
+    left: 61.44px;
     top: 28vh;
 }
 
 div.hr-6{
-    width:9vw;
+    width:138.24px;
     height: 1px;
     border: black solid 1px;
     background-color: black;
     position: absolute;
-    left: 3vw;
+    left: 46px;
     top: 26.5vh;
 }
 
@@ -174,65 +169,65 @@ div.big-button{
     border-radius: 100000px;
     z-index: 2;
     position: absolute;
-    width: 5vw;
-    height: 5vw;
+    width: 76.8px;
+    height: 76.8px;
     top: 53vh;
-    left: 2vw;
+    left: 30.72px;
     border: white solid 2px;
 }
 
 div.poketext{
     position: absolute;
     font-size: 280%;
-    left: 4.5vw;
+    left: 69.12px;
     top: -5vh;
 }
 
 div.up-cross{
     position: absolute;
     background-color: #1D1F20;
-    height: 2vw;
-    width: 2vw;
-    top: 16vw;
-    left: 10vw;
+    height: 30.72px;
+    width: 30.72px;
+    top: 245.76px;
+    left: 153.6px;
     box-shadow: -2px 2px #010101;
 }
 
 div.middle-cross{
     position: absolute;
     background-color: #1D1F20;
-    height: 2vw;
-    width: 2vw;
-    top: 18vw;
-    left: 10vw;
+    height: 30.72px;
+    width: 30.72px;
+    top: 276.48px;
+    left: 153.6px;
 }
 
 div.right-cross{
     position: absolute;
     background-color: #1D1F20;
-    height: 2vw;
-    width: 2vw;
-    top: 18vw;
-    left: 12vw;
+    height: 30.72px;
+    width: 30.72px;
+    top: 276.48px;
+    left: 184.32px;
 }
 
 div.left-cross{
     position: absolute;
     background-color: #1D1F20;
-    height: 2vw;
-    width: 2vw;
-    top: 18vw;
-    left: 8vw;
+    height: 30.72px;
+    width: 30.72px;
+    top: 276.48px;
+    left: 122.88px;
     box-shadow: -2px 1px #010101;
 }
 
 div.down-cross{
     position: absolute;
     background-color: #1D1F20;
-    height: 2vw;
-    width: 2vw;
-    top: 20vw;
-    left: 10vw;
+    height: 30.72px;
+    width: 30.72px;
+    top: 307.2px;
+    left: 153.6px;
     box-shadow: -2px 1px #010101;
 }
 
@@ -286,20 +281,20 @@ div.right-screen{
     box-shadow: inset -0.5px 0.3em 1.5em black;
     background-color: #A6AD97;
     border-radius: 10px;
-    width: 15vw;
+    width: 230.4px;
     height: 30vh;
     top: 10vh;
-    left: 3.5vw;
+    left: 53.76px;
 }
 
 div.little-big-yellow-button{
     position: absolute;
     background-color: #ffff00;
-    width: 8vw;
+    width: 122.88px;
     height: 6vh;
     border-radius: 5px;
-    top: 51vh;
-    left: 3.5vw;
+    top: 374.34px;
+    left: 53.76px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
 }
@@ -307,11 +302,11 @@ div.little-big-yellow-button{
 div.little-bug-yellow-button2{
     position: absolute;
     background-color: #ffff00;
-    width: 6.5vw;
+    width: 99.84px;
     height: 6vh;
     border-radius: 5px;
-    top: 51vh;
-    left: 12vw;
+    top: 374.34px;
+    left: 184.32px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
 }
@@ -319,11 +314,11 @@ div.little-bug-yellow-button2{
 div.little-breen-button1{
     position: absolute;
     background-color: #30da0c;
-    width: 3vw;
+    width: 46px;
     height: 3vh;
     border-radius: 5px;
     top: 44vh;
-    left: 3.5vw;
+    left: 53.76px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
 }
@@ -331,11 +326,11 @@ div.little-breen-button1{
 div.little-breen-button2{
     position: absolute;
     background-color: #30da0c;
-    width: 3vw;
+    width: 46px;
     height: 3vh;
     border-radius: 5px;
     top: 44vh;
-    left: 7.5vw;
+    left: 115.2px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
 }
@@ -343,11 +338,11 @@ div.little-breen-button2{
 div.little-breen-button3{
     position: absolute;
     background-color: #30da0c;
-    width: 3vw;
+    width: 46px;
     height: 3vh;
     border-radius: 5px;
     top: 44vh;
-    left: 11.5vw;
+    left: 176.64px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
 }
@@ -355,11 +350,11 @@ div.little-breen-button3{
 div.little-breen-button4{
     position: absolute;
     background-color: #30da0c;
-    width: 3vw;
+    width: 46px;
     height: 3vh;
     border-radius: 5px;
     top: 44vh;
-    left: 15.5vw;
+    left: 238.08px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
 }
