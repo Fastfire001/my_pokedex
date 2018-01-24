@@ -187,7 +187,7 @@ div.poketext{
 
 div.up-cross{
     position: absolute;
-    background-color: #513D22;
+    background-color: #1D1F20;
     height: 2vw;
     width: 2vw;
     top: 16vw;
@@ -197,7 +197,7 @@ div.up-cross{
 
 div.middle-cross{
     position: absolute;
-    background-color: #513D22;
+    background-color: #1D1F20;
     height: 2vw;
     width: 2vw;
     top: 18vw;
@@ -206,7 +206,7 @@ div.middle-cross{
 
 div.right-cross{
     position: absolute;
-    background-color: #513D22;
+    background-color: #1D1F20;
     height: 2vw;
     width: 2vw;
     top: 18vw;
@@ -215,7 +215,7 @@ div.right-cross{
 
 div.left-cross{
     position: absolute;
-    background-color: #513D22;
+    background-color: #1D1F20;
     height: 2vw;
     width: 2vw;
     top: 18vw;
@@ -225,7 +225,7 @@ div.left-cross{
 
 div.down-cross{
     position: absolute;
-    background-color: #513D22;
+    background-color: #1D1F20;
     height: 2vw;
     width: 2vw;
     top: 20vw;
@@ -276,4 +276,35 @@ div.down-arrow{
     position: absolute;
     bottom: 8px;
     left: 5px;
+}
+
+div.right-screen{
+    position: absolute;
+    box-shadow: inset -0.5px 0.3em 1.5em black;
+    background-color: #A6AD97;
+    border-radius: 10px;
+    width: 15vw;
+    height: 30vh;
+    top: 10vh;
+    left: 3.5vw;
+}
+
+div.little-big-yellow-button{
+    position: absolute;
+    background-color: #ffff00;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 5px;
+    top: 51vh;
+    left: 3.5vw;
+}
+
+div.little-bug-yellow-button2{
+    position: absolute;
+    background-color: #ffff00;
+    width: 6.5vw;
+    height: 6vh;
+    border-radius: 5px;
+    top: 51vh;
+    left: 12vw;
 }
