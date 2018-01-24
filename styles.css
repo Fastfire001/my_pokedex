@@ -297,6 +297,8 @@ div.little-big-yellow-button{
     border-radius: 5px;
     top: 51vh;
     left: 3.5vw;
+    border: black solid 1px;
+    box-shadow: -2px 2px #5e0000;
 }
 
 div.little-bug-yellow-button2{
@@ -307,4 +309,54 @@ div.little-bug-yellow-button2{
     border-radius: 5px;
     top: 51vh;
     left: 12vw;
+    border: black solid 1px;
+    box-shadow: -2px 2px #5e0000;
+}
+
+div.little-breen-button1{
+    position: absolute;
+    background-color: #30da0c;
+    width: 3vw;
+    height: 3vh;
+    border-radius: 5px;
+    top: 44vh;
+    left: 3.5vw;
+    border: black solid 1px;
+    box-shadow: -2px 2px #5e0000;
+}
+
+div.little-breen-button2{
+    position: absolute;
+    background-color: #30da0c;
+    width: 3vw;
+    height: 3vh;
+    border-radius: 5px;
+    top: 44vh;
+    left: 7.5vw;
+    border: black solid 1px;
+    box-shadow: -2px 2px #5e0000;
+}
+
+div.little-breen-button3{
+    position: absolute;
+    background-color: #30da0c;
+    width: 3vw;
+    height: 3vh;
+    border-radius: 5px;
+    top: 44vh;
+    left: 11.5vw;
+    border: black solid 1px;
+    box-shadow: -2px 2px #5e0000;
+}
+
+div.little-breen-button4{
+    position: absolute;
+    background-color: #30da0c;
+    width: 3vw;
+    height: 3vh;
+    border-radius: 5px;
+    top: 44vh;
+    left: 15.5vw;
+    border: black solid 1px;
+    box-shadow: -2px 2px #5e0000;
 }
