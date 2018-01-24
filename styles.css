@@ -94,7 +94,8 @@ div.hr-4{
 
 div.screen-border{
     position: absolute;
-    background-color: #D2D6CB;
+    box-shadow: inset -0.5px 0.3em 1.5em black;
+    background-color: #A6AD97;
     top: 146.8px;
     left: 46px;
     width: 215.04px;
@@ -357,4 +358,29 @@ div.little-breen-button4{
     left: 238.08px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
+}
+
+img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 35px;
+    left: 35px;
+    border: black solid 1px;
+}
+
+div.pokename {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+div.poketype{
+    position: absolute;
+    left: 10px;
+    top: 47px;
+}
+
+div.error{
+    text-align: center;
+    color: red;
 }
