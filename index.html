@@ -7,10 +7,11 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <form>
-        <input type="text">
+    <form name="search">
+        <input type="text" name="id-name">
         <input type="submit" value="search that pokemon">
     </form>
+    <div class="error"></div>
     <div class="pokedex">
         <div class="left red">
             <div class="up">
@@ -40,7 +41,8 @@
 
         <div class="right red">
             <div class="right-screen">
-
+                <div class="pokename"></div>
+                <div class="poketype"></div>
             </div>
             <div class="little-big-yellow-button"></div>
             <div class="little-bug-yellow-button2"></div>
