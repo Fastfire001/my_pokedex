@@ -21,7 +21,7 @@ div.left{
     left: 384px;
     width: 384px;
     height: 513.8px;
-    top: 12vh;
+    top: 88.08px;
     border-radius: 40px 40px 0 40px;
     box-shadow: -10px 9px #5e0000;
 }
@@ -30,7 +30,7 @@ div.up{
     z-index: 2;
     position: absolute;
     width: 384px;
-    height: 10vh;
+    height: 73.4px;
     border-radius: 40px 40px 0 40px;
     box-shadow: -10px 9px #5e0000;
 }
@@ -40,8 +40,8 @@ div.right{
     position: absolute;
     left: 752.64px;
     width: 322.56px;
-    height: 60vh;
-    top: 22vh;
+    height: 440.4px;
+    top: 161.48px;
     border-radius: 0 40px 40px 0;
     box-shadow: -0 9px #5e0000;
 }
@@ -71,7 +71,7 @@ div.hr-2{
     border: black solid 1px;
     background-color: black;
     position: absolute;
-    top: 15vh;
+    top: 110.1px;
 }
 
 div.hr-3{
@@ -80,7 +80,7 @@ div.hr-3{
      border: black solid 1px;
      background-color: black;
      position: absolute;
-     top: 60vh;
+     top: 440.4px;
  }
 
 div.hr-4{
@@ -89,7 +89,7 @@ div.hr-4{
     border: black solid 1px;
     background-color: black;
     position: absolute;
-    top: 65vh;
+    top: 477.1px;
 }
 
 div.screen-border{
@@ -112,7 +112,7 @@ div.red-btn{
 
 div.button1{
     position: absolute;
-    top: 1vh;
+    top: 7.34px;
     left: 7.68px;
 }
 
@@ -126,7 +126,7 @@ div.green-btn{
 
 div.button2{
     position: absolute;
-    top: 1vh;
+    top: 7.34px;
     left: 30.72px;
 }
 
@@ -140,7 +140,7 @@ div.yellow-btn{
 
 div.button3{
     position: absolute;
-    top: 1vh;
+    top: 7.34px;
     left: 53.76px;
 }
 
@@ -151,7 +151,7 @@ div.hr-5{
     background-color: black;
     position: absolute;
     left: 61.44px;
-    top: 28vh;
+    top: 205.52px;
 }
 
 div.hr-6{
@@ -161,7 +161,7 @@ div.hr-6{
     background-color: black;
     position: absolute;
     left: 46px;
-    top: 26.5vh;
+    top: 194.51px;
 }
 
 div.big-button{
@@ -171,7 +171,7 @@ div.big-button{
     position: absolute;
     width: 76.8px;
     height: 76.8px;
-    top: 53vh;
+    top: 389.02px;
     left: 30.72px;
     border: white solid 2px;
 }
@@ -180,7 +180,7 @@ div.poketext{
     position: absolute;
     font-size: 280%;
     left: 69.12px;
-    top: -5vh;
+    top: -36.7px;
 }
 
 div.up-cross{
@@ -282,8 +282,8 @@ div.right-screen{
     background-color: #A6AD97;
     border-radius: 10px;
     width: 230.4px;
-    height: 30vh;
-    top: 10vh;
+    height: 220.2px;
+    top: 73.4px;
     left: 53.76px;
 }
 
@@ -291,7 +291,7 @@ div.little-big-yellow-button{
     position: absolute;
     background-color: #ffff00;
     width: 122.88px;
-    height: 6vh;
+    height: 44.04px;
     border-radius: 5px;
     top: 374.34px;
     left: 53.76px;
@@ -303,7 +303,7 @@ div.little-bug-yellow-button2{
     position: absolute;
     background-color: #ffff00;
     width: 99.84px;
-    height: 6vh;
+    height: 44.04px;
     border-radius: 5px;
     top: 374.34px;
     left: 184.32px;
@@ -315,9 +315,9 @@ div.little-breen-button1{
     position: absolute;
     background-color: #30da0c;
     width: 46px;
-    height: 3vh;
+    height: 22.02px;
     border-radius: 5px;
-    top: 44vh;
+    top: 322.96px;
     left: 53.76px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
@@ -327,9 +327,9 @@ div.little-breen-button2{
     position: absolute;
     background-color: #30da0c;
     width: 46px;
-    height: 3vh;
+    height: 22.02px;
     border-radius: 5px;
-    top: 44vh;
+    top: 322.96px;
     left: 115.2px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
@@ -339,9 +339,9 @@ div.little-breen-button3{
     position: absolute;
     background-color: #30da0c;
     width: 46px;
-    height: 3vh;
+    height: 22.02px;
     border-radius: 5px;
-    top: 44vh;
+    top: 322.96px;
     left: 176.64px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
@@ -351,9 +351,9 @@ div.little-breen-button4{
     position: absolute;
     background-color: #30da0c;
     width: 46px;
-    height: 3vh;
+    height: 22.02px;
     border-radius: 5px;
-    top: 44vh;
+    top: 322.96px;
     left: 238.08px;
     border: black solid 1px;
     box-shadow: -2px 2px #5e0000;
