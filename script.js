@@ -1,3 +1,11 @@
+function display(data) {
+    document.querySelector('div.pokename').innerHTML = 'Name: <br>' + data.name;
+    document.querySelector('div.poketype').innerHTML = 'Type <br>' + data.type;
+    var link = 'http://img.pokemondb.net/artwork/' + data.name.substr(0,data.name.length).toLowerCase() + '.jpg';
+    var img = document.createElement('img');
+    img.setAttribute('src', link);
+    document.querySelector('div.screen-border').appendChild(img);
+}
 function main(data) {
     document.forms['search'].onsubmit = function () {
         var idOrName = this.elements['id-name'].value;
