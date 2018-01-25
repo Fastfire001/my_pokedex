@@ -384,3 +384,17 @@ div.error{
     text-align: center;
     color: red;
 }
+
+div.close{
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    div.pokedex{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+
+}
