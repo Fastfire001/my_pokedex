@@ -31,6 +31,7 @@ div.up{
     position: absolute;
     width: 384px;
     height: 73.4px;
+    left: 1.5px;
     border-radius: 40px 40px 0 40px;
     box-shadow: -10px 9px #5e0000;
 }
@@ -397,4 +398,130 @@ div.close{
         display: none;
     }
 
+    div.error{
+        display: none;
+    }
+
+    div.close{
+        display: block;
+        position: absolute;
+        background-color: #C00D0D;
+        width: 384px;
+        height: 513.8px;
+        border-radius: 40px 40px 0 40px;
+        box-shadow: -10px 9px #5e0000;
+        left: 170px;
+        top: 88.08px;
+    }
+    div.middle-close{
+        z-index: 3;
+        position: absolute;
+        width: 76.8px;
+        height: 513.8px;
+        background: -webkit-linear-gradient(left, #7e0202 0%, #9c0b0b 50%, #660000 100%);
+        right: 0;
+        border-radius: 0 40px 0 0;
+    }
+
+    div.block-close{
+        position: absolute;
+        background-color: #5e0000;
+        height: 20px;
+        width: 20px;
+        top: 502.72px;
+        left: 364px;
+    }
+    div.up-close{
+        position: absolute;
+        width: 384px;
+        height: 73.4px;
+        right: -2px;
+        border-radius: 40px 40px 0 40px;
+        box-shadow: -1px 1px #5e0000;
+    }
+    .pokeball{
+        position: absolute;
+        top: 130px;
+        left: 38px;
+    }
+
+    div {
+        margin: 0 auto; padding: 0;
+    }
+
+    .top{
+        background-color:#EB2224;
+        height:110px;
+        width:230px;
+        border-radius:195px 195px 0 0;
+        border-bottom:6px solid #000000;
+    }
+
+    .middle_circle{
+        background-color:#bcbcbc;
+        width:75px;
+        height:75px;
+        border-radius:50%;
+        margin: 70px 65px;
+        position:absolute;
+        border:12px solid #000000;
+    }
+
+    .white_in{
+        background-color: #bcbcbc;
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        padding:4px 4px;
+        margin:5px 6px;
+        border:3px solid #000000;
+    }
+
+    .bottom{
+        background-color:#bcbcbc;
+        height:110px;
+        width:230px;
+        border-radius:0 0 195px 195px;
+        border-top:6px solid #000000;
+    }
+
+    div.hr-7{
+        width: 200px;
+        height: 1px;
+        border: black solid 1px;
+        background-color: black;
+        position: absolute;
+        top: 400px;
+        left: 55px;
+    }
+
+    div.hr-8{
+        width: 200px;
+        height: 1px;
+        border: black solid 1px;
+        background-color: black;
+        position: absolute;
+        top: 415px;
+        left: 55px;
+    }
+
+    div.hr-9{
+        width: 200px;
+        height: 1px;
+        border: black solid 1px;
+        background-color: black;
+        position: absolute;
+        top: 430px;
+        left: 55px;
+    }
+
+    div.hr-10{
+        width: 200px;
+        height: 1px;
+        border: black solid 1px;
+        background-color: black;
+        position: absolute;
+        top: 445px;
+        left: 55px;
+    }
 }
