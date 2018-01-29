@@ -6,6 +6,13 @@ function display(data) {
     img.setAttribute('src', link);
     document.querySelector('div.screen-border').appendChild(img);
 }
+
+function mrmime() {
+    document.querySelector('div.screen-border').removeChild();
+    var img = document.createElement('img');
+    img.setAttribute('src', 'https://img.pokemondb.net/artwork/mr-mime.jpg');
+    document.querySelector('div.screen-border').appendChild(img);
+}
 function main(data) {
     document.forms['search'].onsubmit = function () {
         var idOrName = this.elements['id-name'].value;
@@ -14,6 +21,9 @@ function main(data) {
             for (i in data) {
                 if (data[i].name === idOrName) {
                     display(data[i]);
+                    if (83 === data[i].id){
+                        mrmime();
+                    }
                     return false
                 }
             }
@@ -22,6 +32,11 @@ function main(data) {
             for (i in data) {
                 if (i === idOrName) {
                     display(data[i]);
+                    console.log(data[i].id)
+                    if (83 === data[i].id){
+                        console.log("wfdgn");
+                        mrmime();
+                    }
                     return false
                 }
             }
