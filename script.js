@@ -14,7 +14,7 @@ function main(data) {
             for (i in data) {
                 if (data[i].name === idOrName) {
                     display(data[i]);
-                    return false
+                    return false;
                 }
             }
             document.querySelector('div.error').innerHTML = idOrName + ' not found';
@@ -22,7 +22,7 @@ function main(data) {
             for (i in data) {
                 if (i === idOrName) {
                     display(data[i]);
-                    return false
+                    return false;
                 }
             }
             document.querySelector('div.error').innerHTML = 'Pokémon number ' + idOrName + ' not found';
